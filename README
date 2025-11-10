@@ -1,1 +1,47 @@
-project
+## Handwritten Digit Classification using SVM
+
+A project that uses Support Vector Machine (SVM) to classify handwritten digits (0–9) from the load_digits dataset in scikit-learn. The project includes data exploration, model training, hyperparameter tuning, evaluation, and visualization to achieve high accuracy in digit recognition.
+
+📌 Features
+
+Exploratory Data Analysis (EDA) of the digits dataset
+
+Baseline SVM model training and evaluation
+
+Hyperparameter tuning using GridSearchCV
+
+Confusion matrix and classification report visualization
+
+Visualization of predicted vs actual digits
+
+📂 Dataset
+
+The project uses the load_digits dataset from scikit-learn:
+
+1797 grayscale images of digits (8×8 pixels)
+
+64 features per sample (pixel intensity values)
+
+Target labels: digits 0–9
+
+All digits are handwritten by humans, making recognition more challenging than typed digits
+
+📈 Results
+
+Baseline SVM accuracy: ~98%
+
+Confusion matrix shows minimal misclassifications between visually similar digits
+
+Hyperparameter tuning improves model performance slightly, achieving near-optimal results
+
+📊 Visualizations
+
+Sample handwritten digit images
+
+Predicted vs actual digits comparison
+
+Confusion matrix heatmap showing correct and misclassified predictions
+
+📌 Conclusion
+
+The SVM model demonstrates high accuracy and reliable performance on handwritten digit recognition. Minor misclassifications mostly occur between visually similar digits, which is expected given the variability in human handwriting.
